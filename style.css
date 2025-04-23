@@ -1,0 +1,528 @@
+*{
+margin: 0;
+padding: 0;
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+*::-webkit-scrollbar{
+    display: none
+}
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+body{
+    background-color: black;
+    position: relative;
+    z-index: -1;
+   
+    width: 100vw;
+}
+.main{
+    width: 135vw;
+    object-fit: cover;
+    position: relative;
+    object-position: center;
+    height: 80vh;
+    background-image: url("assets/netfilx.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-clip: padding-box;
+    background-repeat: no-repeat;
+    overflow: visible;
+    box-sizing: border-box;
+ 
+}
+.opacity{
+    width: 100%;
+    height: 80vh;
+    opacity: 0.64;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+    
+nav{
+    max-width: 60vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 62px;
+}
+nav img{
+    color: red;
+    width: 110px;
+    position: relative;
+    z-index:10;
+    top:3vh;
+    right: 33px;
+}
+.all{
+    position: relative;
+    z-index: 10;
+    font-family:  "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;;
+
+}
+
+
+.headtext{
+  
+   
+     
+     padding:23px;
+    height: calc(100% - 62px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    bottom: 100px;
+    z-index: 10;
+    gap: 23px;
+    top: 1vh;
+  
+}
+.bada{
+    font-family: "Martel Sans",segoe UI;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 60px;
+    line-height:50px;
+    text-align: center;
+}
+.chota{
+    text-align: center;
+    font-family: "Martel Sans", segoe UI;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 25px;
+}
+.vegla{
+    text-align: center;
+  font-family:   "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+  font-size: 17px;
+}
+.shadow{
+    box-shadow: inset 50px 50px 50px 50px black;
+}
+.form{
+
+    position: relative;
+    z-index: 2;
+    display: flex;
+    gap: 20px;
+    FLEX-WRAP: wrap;
+    JUSTIFY-CONTENT: center;
+    
+    
+
+}
+
+
+.sepration{
+    border: solid .2rem rgba(244, 0, 0, 0.548);
+    border-bottom: none;
+    border-top-left-radius: 50% 100%;
+    border-top-right-radius: 50% 100%;
+    width: 135vw;
+    overflow-x: hidden;
+    height: 30px;
+    background: radial-gradient(
+        53% 729% at 49% -776%,
+        rgba(64, 97, 231, 0.4) 103%,
+        rgba(0, 0, 0, -3.9) 125%),black;
+    position: absolute;
+    top:76vh ;
+    z-index: 1;
+    background-clip: padding-box;
+    height: 62px;
+    
+}
+.red{
+    display: flex;
+    /* padding: 4px 23px; */
+    font-weight: 500;
+    background-color: red;
+    color: white;
+    border: 0px solid;
+    font-size: 16px;
+    border: 0px solid red;
+    border-radius: 6px;
+    cursor: pointer;
+    flex-direction: row;
+    width: 85px;
+    justify-content: center;
+    align-items: center;
+}
+.black{
+      padding: 2px 0px 0px 32px;
+      font-weight: 500;
+      background-color: transparent;
+      color: white;
+      border: 1px solid white;
+      border-radius: 6px;
+      font-size: 21px;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 7px;
+      flex-direction: row;
+      /* width: 163px; */
+ }
+ .p{
+    position: relative;
+    bottom: 1px;
+ }
+ .btn-up{
+    display: flex;
+    gap: 10px;
+ }
+ .input{
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    padding: 6px 43px 7px 31px;
+    font-size: 29px;
+    cursor: pointer;
+    width: 242px;
+ }
+ 
+ .mail{
+    
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    height: 3.5vh;
+    border-radius: 7px;
+    font-size: 22px;
+    padding: 13px 82px 12px 28px;
+    background-color: #0000009e;
+    border: 1px solid white;
+    font-weight: bolder;
+    color: white;
+
+}
+.btn{
+ 
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    padding: 6px 43px 7px 31px;
+    font-size: 29px;
+    cursor: pointer;
+}
+.tran{
+    padding: 3px 3px 3px 11px;
+    position: relative;
+    left: -26px;
+}
+.pp{
+    position: relative;
+    right: 29px;
+}
+.arr{
+    position: relative;
+    right: 10px;
+}
+.trend{
+    color: white;
+    position: relative;
+    font-family: "Martel Sans", segoe UI;
+    font-size: 45px;
+    font-weight: 500;
+    padding: 2px 2px 2px 89px;
+}
+.ind{
+    padding: 5px 32px;
+    font-weight: 500;
+    background-color: transparent;
+    color: white;
+    border: 3px solid white;
+    border-radius: 6px;
+    font-size: 19px;
+    cursor: pointer;
+    position: relative;
+    bottom: -15px;
+    left: 88px;
+}
+.movies{
+    padding: 5px 32px;
+    font-weight: 500;
+    background-color: transparent;
+    color: white;
+    border: 3px solid white;
+    border-radius: 6px;
+    font-size: 19px;
+    cursor: pointer;
+    position: relative;
+    bottom: -13px;
+    left: 105px;
+
+}
+
+.bb{
+    position: relative;
+    top: 81px;
+    left: 86px;
+}
+.outer{
+    font-family: "Martel Sans",segoe UI;
+    font-size: 141px;
+   color: white;
+    font-weight: 900;
+    position: absolute;
+    top: 98px;
+    left: -32px;
+    text-shadow: 0 0 1.5rem rgba(0,0,0,0.5);
+}
+.inner{
+    font-family: "Martel Sans",segoe UI;
+    font-size: 116px;
+    color: black;
+    font-weight: 700;
+    position: absolute;
+    top: 113px;
+    left: -27px;
+    text-shadow: 0 0 1.5rem rgba(0,0,0,0.5);
+}
+.dusra{
+font-weight: 900;
+top: 95px;
+left: -36px;
+
+}
+.do{
+    top: 107px;
+   
+    left: -29px;
+    font-size: 128px;
+}
+.now{
+    display: flex;
+    gap: 70px;
+    flex-wrap: wrap;
+}
+.teesra{
+   font-size: 145px;
+   top: 95px;
+}
+.teen{
+    font-size: 130px;
+    top: 109px;
+    left: -25px;
+}
+
+.char{
+    top: 116px;
+    left: -24px;
+    font-size: 121px;
+}
+.baju-btn{
+    height: 145px;
+    width: 45px;
+    background-color: gray;
+    position: relative;
+    top: 142px;
+    left: 80px;
+    border: 2px solid;
+    border-radius: 41px;
+    background-color: rgba(255,255,255,0.1);
+}
+
+.tingu{
+
+ font-family: "Martel Sans", segoe UI;
+ position: relative;
+ top: 32px;
+ font-size: 54px;
+ left: 4px;
+ font-weight: 600;
+ color: rgba(255,255,255,0.7);
+cursor: pointer;
+}
+.reason{
+    display: flex;
+    gap: 23px;
+}
+.join{
+    color: white;
+    position: relative;
+    font-family: "Martel Sans", segoe UI;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 2px 2px 2px 89px; 
+    top:150px;
+}
+.tv{
+    height: 312px;
+    width: 338px;
+    position: relative;
+   
+    top: 163px;
+    left: 87px;
+    border-radius: 19px;
+    background: linear-gradient(
+        149deg,
+        #192247 44%,
+        #210e17 103.86%
+    );
+}
+.njoy{
+    color: white;
+    font-family: "Martel Sans", segoe UI;
+    color: white;
+    font-family: "Martel Sans", segoe UI;
+    font-weight: 700;
+    font-size: 26px;
+    position: relative;
+    top: 24px;
+    left: 16px;
+} 
+.info{
+    color: white;
+    font-family: "Martel Sans", segoe UI;
+    color: white;
+    font-family: "Martel Sans", segoe UI;
+    position: absolute;
+    top:107px;
+    left: 15px;
+    font-size: 19px;
+}
+.tvsvg{
+    position: absolute;
+    top: 226px;
+    left: 246px;
+}
+.infotwo{
+    color: white;
+    font-family: "Martel Sans", segoe UI;
+    color: white;
+    font-family: "Martel Sans", segoe UI;
+    position: absolute;
+    top: 105px;
+    left: 15px;
+    font-size: 19px;
+}
+.down{
+font-size: 23px;
+}
+section.\34 box{
+    display: flex;
+    gap: 23px;
+    flex-wrap: wrap;
+}
+h2{
+    color: white;
+    font-family: "Martel Sans", segoe UI;
+    position: relative;
+    top: 275px;
+
+    display: flex;
+    justify-content: center;
+    font-size: 44px;
+    font-weight: 800;
+}
+.faqbox{
+   
+    display: flex;
+    background-color:rgb(45,45,45) ;
+    padding: 24px;
+    max-width: 40vw;
+    margin: 34px auto;
+    font-family: "Martel Sans", segoe UI;
+    justify-content: space-between;
+    color: white;
+    position: relative;
+    top: 317px;
+    cursor: pointer;
+}
+.que{
+  
+    font-size: 20px;
+}
+.faqbox:hover{
+    background-color: gray;
+    transition: all 250ms ease-out;
+}
+.bb:hover{
+  border: 0px solid;
+  border-radius: 50px;
+}
+.lastmail{
+    position: relative;
+   
+    justify-content: center;
+    top: 288px;
+    color: white;
+    text-align: center;
+    margin: 117px;
+}
+.last{
+    font-family: "Martel Sans", segoe UI;
+    font-size: 18px;
+}
+.lstfrm{
+    margin: 58px;
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    position: relative;
+}
+.footer-items{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 23px;
+    top: 75px;
+    position: relative;
+}
+.aa{
+   
+    font-family: "Martel Sans", segoe UI;
+    font-size: 25px;
+    color: #ffffffa8;
+    padding: 23px;
+}
+footer{
+    font-family: "Martel Sans", segoe UI;
+    font-size: 25px;
+    color: #ffffffde;
+    position: relative;
+    top: 240px;
+    margin: 53px 50px 150px 139px;
+    font-weight: 400;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    justify-content: center;
+    align-items: center;
+}
+.num{
+text-decoration: underline;
+text-decoration-color: white;
+cursor: pointer;
+}
+.akhir{
+    width: 169px;
+}
+.Net{
+    font-family: "Martel Sans", segoe UI;
+    color: gray;
+    position: relative;
+    top: 123px;
+    left: 160px;
+    font-size: 29px;
+    padding: 1px 1px 38px 1px;
+    width: 169px;
+}
+
+@media (max-width:540px){
+    .main{
+        height: 90vh;
+    }
+    .sepration{
+        top: 84vh;
+    }
+    .opacity{
+        height: 90vh;
+    }
+}
+
